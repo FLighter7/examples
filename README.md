@@ -1,7 +1,7 @@
 # Examples
 
 [Click me to find some example](data)<br>
-Use `Ctrl+T` to find example by keywords.
+Use `Ctrl+T` to find example by keywords
 
 ### How to add a new example?
 
