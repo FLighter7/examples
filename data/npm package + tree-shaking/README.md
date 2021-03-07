@@ -34,6 +34,7 @@ After building through webpack and rollup the results are:
 | `import {functionality} from 'library';` | 13.9 KB | 4.59 KB | yes
 | `import functionality from 'library/functionality';` | 14 KB | 4.59 KB | yes
 | * `import {functionality} from 'library/functionality';` | - | - | -
+
 \* `lodash-es` doesn't provide this import option, but the result will be the same as `import functionality from 'library/functionality';`
 
 According to the results, the best import option is ESM `import {functionality} from 'library';`, because ESM doesn't need fallbacks `'library/functionality'`, this style is short enough and tree-shakeable.
