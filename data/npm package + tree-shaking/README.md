@@ -33,7 +33,7 @@ After building through webpack and rollup the results are:
 | `import library from 'library';` | 1.18 MB | 531 KB | no
 | `import {functionality} from 'library';` | 13.9 KB | 4.59 KB | yes
 | `import functionality from 'library/functionality';` | 14 KB | 4.59 KB | yes
-| * `import {functionality} from 'library/functionality';` | - | - | -
+| * `import {functionality} from 'library/functionality';` | 14 KB | 4.59 KB | yes
 
 \* `lodash-es` doesn't provide this import option, but the result will be the same as `import functionality from 'library/functionality';`
 
